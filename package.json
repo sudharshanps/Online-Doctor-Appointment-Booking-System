@@ -1,0 +1,24 @@
+{
+  "name": "online-doctor-appointment-booking-system",
+  "version": "1.0.0",
+  "description": "MediLink Innovations - Online Doctor Appointment Booking System",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "doctor-appointment",
+    "healthcare",
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "MediLink Innovations",
+  "license": "ISC"
+}
